@@ -26,7 +26,7 @@ def read_and_sort():
     #create a function to look for YES and add players to lists based on experience.
         
         for word in rows:
-          if word[1] == "YES":
+          if word[2] == "YES":
             experienced.append(word)
           else:
             noExperience.append(word)
